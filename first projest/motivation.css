@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.header{
+    position: fixed;      
+    height: 80px;
+    width: 100%;
+    z-index: 100;
+    padding: 0 20px;
+}
+
+.nav{
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.nav,
+.nav_item{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav_logo,
+.nav_link,
+.btn-1{
+    color: #fff;
+}
+
+.nav_logo{
+    font-size: 25px;
+}
+
+.nav_item{
+    column-gap: 25px;
+}
+
+.nav_link:hover{
+    color: #d9d9d9;
+}
+
+.btn-1{
+    padding: 6px 24px;
+    border: 2px solid #fff;
+    background: transparent;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.photo{
+    left: -50%;
+}
+
+/* Home */
+.home{
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    background-image: url("Really-Cool-Space-Backgrounds.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* Form */
+.form_container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 101;
+}
+
+.form_container{
+     position: absolute;
+     background-color: #b1c5d033;
+     max-height: 25vh;
+     width: 80%;
+     width:  230px;
+     padding: 25px;
+     border-radius: 7px;
+     display: block;
+     border: none;
+     box-sizing: border-box;
+     backdrop-filter: blur(5px);
+}
+
+input{
+    margin-bottom: 10px;
+    box-sizing: large;
+    background-color: transparent;
+    border-radius: 0px;
+    border: none;
+    height: 35px;
+    width: none;
+    font-weight: bolder;
+    box-sizing: border-box;
+    padding-left: 10px;
+    outline: 0;
+    border-bottom: 2px solid transparent;
+    transition: .3s;
+}
+
+input:focus{
+    border-bottom-color: #00a6ff;
+}
+
+.btn-2{
+    border: none;
+    width: 62px;
+    height: 23px;
+    border-radius: 5px;
+    margin-left: 53px;
+    background-color: #4e575b94;
+    cursor: pointer;
+}
+
+.btn-2:hover{
+    box-shadow:  0 0 10px 0 #76c7fe inset, 0 0 10px 4px  #76c7fe;
+}
